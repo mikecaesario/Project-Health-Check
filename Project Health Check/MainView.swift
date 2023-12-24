@@ -2,17 +2,12 @@
 //  ContentView.swift
 //  Project Health Check
 //
-//  Created with ❤️‍🔥 by Michael Caesario on 15/12/23.
-//  Copyright © 2023 Michael Caesario. All rights reserved.
-// 
-//  Website: https://mikecaesario.app
-//  GitHub: https://github.com/mikecaesario
-//  LinkedIn: https://www.linkedin.com/in/mikecaesario/
+//  Created by Darius, James, and Michael on 15/12/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -25,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }
