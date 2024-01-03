@@ -14,13 +14,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world! This is the change James required me to do it")
+        
+        TabView {
+            
+            DashboardView()
+                .tabItem { Label("Dashboard", systemImage: "heart") }
+            
+            PillTrackerView()
+                .tabItem { 
+                    Label("Pill", systemImage: "pill")
+                }
+            
+            MoodTrackerView()
+                .tabItem { Label("Mood", systemImage: "face.smiling") }
         }
-        .padding()
     }
 }
 
