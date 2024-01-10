@@ -30,7 +30,8 @@ struct NoDataViewDashboard: View {
             VStack(spacing: 8) {
                 
                 Button(action: {
-                           print("Button tapped!")
+                    // the action could be to navigate to pill tab
+                           print("navigate to pills")
                        }) {
                                Text("Add pills")
                                    .foregroundColor(.white)
@@ -43,7 +44,8 @@ struct NoDataViewDashboard: View {
                        .padding([.leading, .trailing], 32)
                 
                 Button(action: {
-                           print("Button tapped!")
+                    // the action could be to navigate to mood tracker tab
+                           print("navigate to mood tracker")
                        }) {
                                Text("Explore mood tracker")
                                    .foregroundColor(.white)
