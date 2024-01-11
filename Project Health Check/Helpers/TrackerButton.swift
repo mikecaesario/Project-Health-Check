@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct TrackerButton: View {
+    let action: () -> Void
+    let title: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: action) {
+            Text(title)
+                .foregroundColor(.white)
+                 // needs frame .infinity to make id wider
+                .frame(maxWidth: .infinity)
+                .padding([.top, .bottom], 8)
+    }
+        .background(Color.indigo)
+        .cornerRadius(16)
+        .padding([.leading, .trailing], 32)
     }
 }
 
-#Preview {
-    TrackerButton()
-}
