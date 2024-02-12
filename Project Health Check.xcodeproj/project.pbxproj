@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A99F9C52B50256700EE4E2B /* TrackerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F9C42B50256700EE4E2B /* TrackerButton.swift */; };
+		8084C08F2B7A06A1005CC90E /* PillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084C08E2B7A06A1005CC90E /* PillInputView.swift */; };
 		80CDB7292B5D886D00933D91 /* PillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CDB7282B5D886D00933D91 /* PillModel.swift */; };
 		80CE739D2B4ED64C00D9AD74 /* NoDataViewDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE739C2B4ED64C00D9AD74 /* NoDataViewDashboard.swift */; };
 		93484E4A2B2CB54400882CDE /* Project_Health_CheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93484E492B2CB54400882CDE /* Project_Health_CheckApp.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		0A99F9C42B50256700EE4E2B /* TrackerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerButton.swift; sourceTree = "<group>"; };
+		8084C08E2B7A06A1005CC90E /* PillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillInputView.swift; sourceTree = "<group>"; };
 		80CDB7282B5D886D00933D91 /* PillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillModel.swift; sourceTree = "<group>"; };
 		80CE739C2B4ED64C00D9AD74 /* NoDataViewDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataViewDashboard.swift; sourceTree = "<group>"; };
 		93484E462B2CB54400882CDE /* Project Health Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Health Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +52,31 @@
 				0A99F9C42B50256700EE4E2B /* TrackerButton.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8084C0882B7A0555005CC90E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				936351B02B45C15D003C4CB8 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		8084C08A2B7A05AA005CC90E /* Pill */ = {
+			isa = PBXGroup;
+			children = (
+				936351AC2B45C144003C4CB8 /* PillTrackerView.swift */,
+				8084C08E2B7A06A1005CC90E /* PillInputView.swift */,
+			);
+			path = Pill;
+			sourceTree = "<group>";
+		};
+		8084C08B2B7A05E0005CC90E /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				936351AE2B45C151003C4CB8 /* MoodTrackerView.swift */,
+			);
+			path = Mood;
 			sourceTree = "<group>";
 		};
 		80CDB7272B5D885C00933D91 /* Models */ = {
@@ -110,9 +137,9 @@
 		936351AB2B45C135003C4CB8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				936351AC2B45C144003C4CB8 /* PillTrackerView.swift */,
-				936351AE2B45C151003C4CB8 /* MoodTrackerView.swift */,
-				936351B02B45C15D003C4CB8 /* DashboardView.swift */,
+				8084C0882B7A0555005CC90E /* Dashboard */,
+				8084C08A2B7A05AA005CC90E /* Pill */,
+				8084C08B2B7A05E0005CC90E /* Mood */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -193,6 +220,7 @@
 				936351B12B45C15D003C4CB8 /* DashboardView.swift in Sources */,
 				80CDB7292B5D886D00933D91 /* PillModel.swift in Sources */,
 				936351AF2B45C151003C4CB8 /* MoodTrackerView.swift in Sources */,
+				8084C08F2B7A06A1005CC90E /* PillInputView.swift in Sources */,
 				80CE739D2B4ED64C00D9AD74 /* NoDataViewDashboard.swift in Sources */,
 				93484E4A2B2CB54400882CDE /* Project_Health_CheckApp.swift in Sources */,
 			);
